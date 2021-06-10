@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+#data
+/front_nextjs/data/taverne.js
+
+
+# dependencies
+/front_nextjs/node_modules
+/front_nextjs/.pnp
+/front_nextjs.pnp.js
+
+# testing
+/front_nextjs/coverage
+
+# next.js
+/front_nextjs/.next/
+/front_nextjs/out/
+
+# production
+/front_nextjs/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+/front_nextjs/npm-debug.log*
+/front_nextjs/yarn-debug.log*
+/front_nextjs/yarn-error.log*
+
+# local env files
+/front_nextjs/.env.local
+/front_nextjs/.env.development.local
+/front_nextjs/.env.test.local
+/front_nextjs/.env.production.local
+
+# vercel
+/front_nextjs/.vercel
